@@ -1,0 +1,124 @@
+.container {
+    &-detail {
+        background-color: #fff;
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: start;
+        justify-content: space-between;
+        margin-bottom: 15px;
+        font-size: 13px;
+        border-radius: 10px;
+    }
+
+    &-left {
+        img {
+            width: 600px;
+            height: 500px;
+        }
+    }
+
+    &-right {
+        h4 {
+            margin: 0;
+            margin-bottom: 10px;
+        }
+
+        .summary {
+            padding: 20px 25px;
+            background-color: #f4f4f4;
+            border-radius: 6px;
+            margin-bottom: 14px;
+        }
+
+        .price {
+            padding: 20px;
+            border: 1px dashed #ddd;
+            border-radius: 5px;
+
+            &_sale {
+                font-size: 22px;
+                color: #bf081f;
+                font-weight: 700;
+                margin-right: 10px;
+            }
+
+            &_origin {
+                font-size: 16px;
+                font-weight: 400;
+                text-decoration: line-through;
+                margin-right: 10px;
+            }
+
+            &_saving {
+                font-size: 14px;
+                color: #bf081f;
+                font-weight: 400;
+            }
+        }
+    }
+}
+
+.group {
+    &-container {
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+    }
+    &-title {
+        font-size: 20px;
+        font-weight: 500;
+        padding-bottom: 10px;
+        margin-top: 0;
+        margin-bottom: 10px;
+        border-bottom: 1px solid #eee;
+    }
+}
+
+iframe {
+    width: 100%;
+}
+
+.comment {
+    &-box {
+        width: 100%;
+        border-radius: 5px;
+        border: 1px solid #e8e8e8;
+    }
+    &-action {
+        display: flex;
+        overflow: hidden;
+        padding: 5px;
+        justify-content: flex-end;
+        button {
+            display: inline-block;
+            padding: 8px 25px;
+            font-size: 14px;
+            color: #fff;
+            background: #288ad6;
+            margin: 0;
+            line-height: 20px;
+            border-radius: 4px;
+            outline: none;
+            border: none;
+        }
+    }
+}
+
+#comment {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 10px;
+    font-size: 14px;
+    color: #333e48;
+    outline: 0;
+    background: 0 0;
+    min-height: 100px;
+    resize: vertical;
+    box-sizing: border-box;
+}

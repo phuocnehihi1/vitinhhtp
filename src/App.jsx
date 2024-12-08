@@ -19,8 +19,8 @@ const App = () => {
         </ul>
       </nav>
       <main>
-          <Container>
-            <Outlet />
+        <Container>
+          <Outlet />
         </Container>
       </main>
       <Footer />
