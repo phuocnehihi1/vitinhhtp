@@ -49,7 +49,7 @@ const ProductDetail = () => {
             <div className="group-container">
               <h2 className="group-title">Video</h2>
               <iframe width="698" height="420" src="https://www.youtube.com/embed/PUVuHX-fyRc"
-                title="LG IPS Monitor 24MR400 Full HD 1080p AMD Free Sync - 100Hz | ASMR Unboxing" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                title="LG IPS Monitor 24MR400 Full HD 1080p AMD Free Sync - 100Hz | ASMR Unboxing" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
             </div>
           </Grid>
           <Grid size={5}>
