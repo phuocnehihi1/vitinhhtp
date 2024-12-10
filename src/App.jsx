@@ -16,6 +16,9 @@ const App = () => {
           <li>
             <Link to="/product-detail">Product Detail</Link>
           </li>
+          <li>
+            <Link to="/cart">Cart</Link>
+          </li>
         </ul>
       </nav>
       <main>

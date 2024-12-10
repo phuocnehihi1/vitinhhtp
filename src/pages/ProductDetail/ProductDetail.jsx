@@ -3,7 +3,6 @@ import { Box, Grid2 as Grid } from "@mui/material";
 import { Link } from "react-router-dom";
 import './ProductDetail.scss'
 
-
 const ProductDetail = () => {
   return (
     <>
@@ -69,6 +68,31 @@ const ProductDetail = () => {
                   <button>Gửi bình luận</button>
                 </div>
               </div>
+              <div className="comment-list">
+                <div className="comment-item">
+                  <div className="comment-item__user">
+                    <div className="avatar">A</div>
+                    <h4 className="username">Anh Nguyễn Đình Dũng</h4>
+                    <p className="date">23/8/2024 14:43</p>
+                  </div>
+                  <div className="comment-item__info">
+                    <p className="comment">màn này lắp được arm đúng ko bạn</p>
+                    <p className="action">Trả lời</p>
+                  </div>
+                </div>
+                <div className="comment-item">
+                  <div className="comment-item__user">
+                    <div className="avatar">A</div>
+                    <h4 className="username">User test</h4>
+                    <p className="date">23/8/2024 14:43</p>
+                  </div>
+                  <div className="comment-item__info">
+                    <p className="comment">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <p className="action">Trả lời</p>
+                  </div>
+                </div>
+              </div>
+
             </div>
           </Grid>
         </Grid>
