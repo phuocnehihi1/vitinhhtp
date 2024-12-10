@@ -1,7 +1,7 @@
 import { Link, Outlet } from "react-router-dom"
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from "@/components/Header/Header"
 import Footer from "@/components/Footer/Footer"
+import { Container } from "@mui/material"
 
 const App = () => {
   return (
@@ -17,12 +17,17 @@ const App = () => {
             <Link to="/product-detail">Product Detail</Link>
           </li>
           <li>
+            <Link to="/cart">Cart</Link>
+          </li>
+          <li>
             <Link to="/search-page">Search Page</Link>
           </li>
         </ul>
       </nav>
       <main>
-        <Outlet />
+        <Container>
+          <Outlet />
+        </Container>
       </main>
       <Footer />
     </>
