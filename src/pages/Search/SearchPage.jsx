@@ -16,7 +16,7 @@ const SearchPage = () => {
 
     return (
         <div className='body-new'>
-            
+            Đang test
             <div className='cate-top'>
                 <div className='container-2019'>
                     <div className='current-cate-title'>
