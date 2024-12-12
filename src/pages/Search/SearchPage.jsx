@@ -16,7 +16,7 @@ const SearchPage = () => {
 
     return (
         <div className='body-new'>
-            Đang test
+            
             <div className='cate-top'>
                 <div className='container-2019'>
                     <div className='current-cate-title'>
@@ -367,7 +367,11 @@ const SearchPage = () => {
 
                                 }}> 150.000₫ - 1.000.000₫ </span>
                             </div>
-                            <div className='p-action'>
+                            <div className='p-action' style={{
+                                
+                                width: "250px"
+                            
+                            }}>
 
                             <span className="p-qty" style={{
                                     color: "#ed1b24",
