@@ -7,12 +7,23 @@ import GradeRoundedIcon from '@mui/icons-material/GradeRounded';
 import KeyboardDoubleArrowRightSharpIcon from '@mui/icons-material/KeyboardDoubleArrowRightSharp';
 import ShoppingCartSharpIcon from '@mui/icons-material/ShoppingCartSharp';
 import DynamicFeedSharpIcon from '@mui/icons-material/DynamicFeedSharp';
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 
 const SearchPage = () => {
     const [block, setBlock] = useState(false);
     const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
+    const [products, setProductions] = useState([]);
+
+    useEffect(function(){
+        fetch('http://localhost:3001/products')
+        .then(res => res.json())
+        .then(data =>{
+            console.log(data)
+            setProductions(data)
+        })
+    },[]);
+        
 
     return (
         <div className='body-new'>
@@ -25,7 +36,7 @@ const SearchPage = () => {
                         </h1>
                         <span className='current-cate-span'>Tổng có 3 Sản Phẩm </span>
                     </div>
-                </div>
+                </div> 
 
             </div>
             <div className='cate-content'>
@@ -369,7 +380,7 @@ const SearchPage = () => {
                             </div>
                             <div className='p-action' style={{
                                 
-                                width: "250px"
+                                width: "240px"
                             
                             }}>
 

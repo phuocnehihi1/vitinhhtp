@@ -45,7 +45,7 @@
     display: block;
     text-align: center;
     border: 1px solid #d9d9d9;
-    width: 272px;
+    width: 230px;
     height: 32px;
     margin: 10px 0px;
     border-radius: 5px;
@@ -340,6 +340,7 @@ padding: 10px;
    border-radius: 20px;
    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
    padding: 16px;
+   
 
  }
 
@@ -391,6 +392,7 @@ padding: 10px;
  }
 
  .p-info h3.p-name  {
+   width: 250px;
   font-size: 30px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #576169;
