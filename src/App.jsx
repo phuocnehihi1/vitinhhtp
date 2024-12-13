@@ -18,12 +18,11 @@ const App = () => {
             <Link to="/product-detail">Product Detail</Link>
           </li>
           <li>
-<<<<<<< HEAD
+
             <Link to="/cart">Cart</Link>
           </li>
           <li>
-=======
->>>>>>> 9694c7472e516bdf82d48f45690bc01c17a25b93
+
             <Link to="/search-page">Search Page</Link>
           </li>
         </ul>

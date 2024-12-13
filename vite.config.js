@@ -13,7 +13,7 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-<<<<<<< HEAD
+ 
   css: {
     preprocessorOptions: {
       scss: {
@@ -21,6 +21,5 @@ export default defineConfig({
       }
     }
   }
-=======
->>>>>>> 9694c7472e516bdf82d48f45690bc01c17a25b93
+
 });
